@@ -1,0 +1,159 @@
+/* Global Styles */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #eeebb8;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #c4e29b; /* Olive green */
+    color: #fff;
+    padding: 20px 0;
+    div {text-align: center;}
+    
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6347; /* Tomato */
+  }
+  
+  /* Main Content */
+  main {
+    padding: 40px 0;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #6b8e23;
+  }
+  
+  section h3, section h4 {
+    color: #333;
+  }
+  
+  .intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .features ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .features li {
+    flex: 1 1 30%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .features li h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .cta {
+    text-align: center;
+    background-color: #ffebcd; /* Light cream */
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+  }
+  
+  .cta h2 {
+    font-size: 2.2em;
+    color: #6b8e23;
+  }
+  
+  .cta a.btn {
+    display: inline-block;
+    background-color: #6b8e23;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta a.btn:hover {
+    background-color: #ff6347; /* Tomato */
+  }
+  
+  /* Footer */
+  footer {
+    background-color:  #c4e29b; /* Olive green */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .features ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .features li {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li {
+      margin-bottom: 10px;
+    }
+

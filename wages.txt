@@ -1,0 +1,10 @@
+Sandra   54.0
+Ahmad    759.0
+Bob      252.0
+Helena   33.0
+Mohammed 526.0
+Yu       206.77
+Zeus     201.78
+Hera     759.4
+Jacob    44.0
+Rowan    290.0

@@ -1,0 +1,64 @@
+1.Start Program
+2.Initialize the Balance to 2500.
+3 .Define an array payments[] that stores the monthly payments:
+    payments = [160, 160, 150, 150, 150, 150, 160, 155, 150, 160, 150, 150]
+4.print the user to enter a month as an integer (1 for January, 12 for December).
+5.Validate the month input to ensure it's between 1 and 12.
+6.If the month is valid, 
+    calculate the total payments made up to and including that month:
+7.Add all the payments from index 0 to the index corresponding to the entered month.
+8.Subtract the total payments from the Balance to calculate the Settlement Figure.
+9.Display the Settlement Figure.
+10.If the month input is invalid, display an error message and prompt again.
+11.End
+
+           +---------------------+
+           | Start               |
+           +---------------------+
+                    |
+                    v
+           +----------------------+
+           | Initialize Balance = 2500  |
+           +----------------------+
+                    |
+                    v
+           +----------------------+
+           | Define payments array|
+           +----------------------+
+                    |
+                    v
+           +----------------------+
+           | Ask for Month Input  |
+           +----------------------+
+                    |
+                    v
+           +----------------------+
+           | Is month valid? (1-12)|
+           +----------------------+
+                    |
+       +------------+------------+
+       |                         |
+    Yes |                         | No
+       v                         v
++-----------------+        +-------------------+
+| Calculate total |        | Display error msg |
+| payments up to  |        +-------------------+
+| the given month|                  |
++-----------------+                  v
+       |                     +-----------------+
+       v                     | Prompt for new  |
++------------------+         | month input     |
+| Calculate        |         +-----------------+
+| Settlement = Balance - |
+| Total Payments   |
++------------------+
+       |
+       v
++---------------------+
+| Display Settlement  |
++---------------------+
+       |
+       v
+    +------+
+    | End  |
+    +------+
